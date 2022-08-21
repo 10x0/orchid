@@ -8,7 +8,13 @@ export default function NavigationMenu({ closeMenu }) {
           className='font-bold text-blue-500 py-3 border-b block'
           onClick={closeMenu}
         >
-          <Link href='/'>Explore Menu</Link>
+          <Link href='/'>Home</Link>
+        </li>
+        <li
+          className='font-bold text-blue-500 py-3 border-b block'
+          onClick={closeMenu}
+        >
+          <Link href='/menu'>Explore Menu</Link>
         </li>
         <li
           className='font-bold text-blue-500 py-3 border-b block'

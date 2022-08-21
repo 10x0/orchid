@@ -9,6 +9,9 @@ module.exports = {
       backgroundColor: {
         'black-t-50': 'rgba(0,0,0,0.5)',
       },
+      fontFamily: {
+        cf: ['Permanent Marker'],
+      },
     },
   },
   plugins: [],
